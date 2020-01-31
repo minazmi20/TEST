@@ -1,0 +1,19 @@
+def addition(a,b):
+    sum = a + b
+    print("sum:", sum)
+addition(a,b)
+a = int(input("enter first number: ")) #typecasting input function with integer
+b = int(input("enter second number: "))
+addition(a,b)
+
+
+print("Now lets see float addition")
+p = float(input("enter first number: "))  #typecasting input function with float
+q = float(input("enter second number: "))
+add = p + q
+print("add:", add)
+print("Now lets see concatenation")
+m = input("enter first number: ") # No Typecasting
+n = input("enter second number: ")
+concat = m + n
+print("concat:", concat)
